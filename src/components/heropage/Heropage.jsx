@@ -134,10 +134,12 @@ function Heropage() {
                         <Link to='products' smooth={true} duration={1000}>Products</Link>
                     </MenuItem>
                     <MenuItem >
-                        Location
+                      <Link to='location-container' smooth={true} duration={1000}>Location</Link>
+                        
                     </MenuItem>
                     <MenuItem >
-                        Contacts 
+                      <Link to='ContactUsPage' smooth={true} duration={1000}>Contact Us</Link>
+                         
                     </MenuItem>
 
                 </Nav>
